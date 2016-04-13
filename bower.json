@@ -1,0 +1,23 @@
+{
+  "name": "socialShare",
+  "description": "sharing plugin for social platforms",
+  "main": "src/socialsharePlugin.js",
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Monika Aggarwal"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

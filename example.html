@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <title>Share Button</title>
+    <link rel="stylesheet" href="./style/style.min.css" type="text/css">
+</head>
+
+<body>
+    <div class="sharebutton"></div>
+    <script src="../jquery/dist/jquery.min.js"></script>
+    <script src="./src/socialsharePlugin.min.js"></script>
+    <script>
+    var config = {
+        facebook: {
+            appId: '983371245066475' //place your fb appId here
+        },
+    };
+    $('.sharebutton').createshare(config);
+    </script>
+</body>
+
+</html>
